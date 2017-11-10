@@ -1,0 +1,37 @@
+<html>
+
+<head>
+    <title>Pokemon App</title>
+    <script src="js/index.js" type="module"></script>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div id="pokemonData">
+        <h1>Pokemon List</h1>
+        <input id="inputPokemonName" type="text" placeholder="Enter a name">
+        <input id="inputPokemonLevel" type="Number" placeholder="Enter an level">
+        <input id="inputPokemonEggGroup" type="text" placeholder="Enter a egg group">
+        <input type="button" onclick="createAndAppendPokemon()" value="Create">
+
+        <div id="loader"></div>
+        <div class="animate-bottom">
+            <table id="pokemonTable">
+                <h2>Pokemons</h2>
+                <table>
+                    <thead>
+                        <th>&nbsp;</th>
+                        <th>Name</th>
+                        <th>Level</th>
+                        <th>EggGroup</th>
+                        <th>&nbsp;</th>
+                    </thead>
+                    <tbody id="pokemonDetails">
+                    </tbody>
+                </table>
+            </table>
+        </div>
+    </div>
+</body>
+
+</html>

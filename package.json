@@ -1,0 +1,25 @@
+{
+  "name": "ExpressCRUD",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ewomackQA/ExpressCRUD.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ewomackQA/ExpressCRUD/issues"
+  },
+  "homepage": "https://github.com/ewomackQA/ExpressCRUD#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "open": "0.0.5",
+    "path": "^0.12.7"
+  }
+}
